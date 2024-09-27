@@ -1,0 +1,87 @@
+.container {
+    width: 80%;
+    height: 85vh;
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+h1 {
+
+  font-family: "Nerko One", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.brand-box{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  align-items: center;
+  font-size: 36px;
+  background-image: linear-gradient(to right top, #343faf, #5e5ebc, #817fc7, #a2a0d2, #c3c2dc);
+  color: #fff;
+}
+.magic-form{
+  width: 40%;
+  padding: 100px 0px;
+}
+.magic-form form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 25px;
+}
+.input-box input{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input:focus , select:focus{
+  border: 1px solid #767CB7;
+  outline: none;
+  box-shadow: rgba(74, 74, 224, 0.2) 0px 7px 29px 0px;
+}
+.check-box{
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+.check-box input{
+  width: 17px;
+  height: 17px;
+}
+button{
+  margin-top: 50px;
+  padding: 13px;
+  font-size: 20px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid;
+  cursor: not-allowed;
+}
+button:not([disabled]){
+  background: #5e5ebc;
+  color:#fff;
+  outline: none;
+  border: 1px solid;
+}
+button:not([disabled]):hover{
+  background: #8686db;
+  cursor: pointer;
+}
+.input-feedback{
+  margin: 10px 0px;
+  color: red;
+  font-weight: 600;
+}
+.input-box label , .check-box{
+  font-weight: 700;
+}
